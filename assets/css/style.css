@@ -1,0 +1,60 @@
+body{
+    margin: 0 50px;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    background-color:whitesmoke;
+    gap: 37px;
+  
+}
+.search{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+    margin: 37px;
+}
+.leftSideBar{
+
+    flex: 1;
+}
+.topleft img{
+   width: auto;
+}
+.bottomleft{
+    
+    position: sticky;
+    top: 63px;
+}
+.bottomright{
+    position: sticky;
+    top: 63px;
+}
+.CentralPart{
+    flex: 3;
+}
+.rightSideBar{
+    flex: 2;
+}
+.linkedin{
+    position: relative;
+    top: 5px;
+    left: 33px;
+}
+.chat{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.chat:hover{
+    cursor: pointer;
+}
